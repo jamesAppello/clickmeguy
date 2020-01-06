@@ -1,11 +1,19 @@
+import Layout from '../components/Layout'
 
 
 const index = () => {
 
     return (
         <>
-        <h1>Welcome to ClickMeGuy</h1>
+        <Layout>
+        <h1>
+           hello
+        </h1>
+        </Layout>
         </>
-    )
-}
+    );
+};
+
+// index.getInitialProps = async function
+
 export default index
