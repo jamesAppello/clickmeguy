@@ -88,10 +88,21 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./Characters.json":
+/*!*************************!*\
+  !*** ./Characters.json ***!
+  \*************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"name\":\"Peter Griffin\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1119269505%2F0509071614Peter_Griffin.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2Fpetergriffin&docid=blz7KYtAN64omM&tbnid=322IfztfGCB1bM%3A&vet=10ahUKEwjtjdSmgPDmAhXMpFkKHfdfDe0QMwiMASgLMAs..i&w=455&h=500&bih=754&biw=1536&q=peter%20griffin%20&ved=0ahUKEwjtjdSmgPDmAhXMpFkKHfdfDe0QMwiMASgLMAs&iact=mrc&uact=8\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Lois Griffin\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.costumewall.com%2Fwp-content%2Fuploads%2F2017%2F03%2Flois-griffin.jpg&imgrefurl=https%3A%2F%2Fcostumewall.com%2Fdress-like-lois-griffin%2F&docid=HKzBzIaH4xG59M&tbnid=ubEBzazOVENB8M%3A&vet=10ahUKEwil1-fDgPDmAhUDrVkKHahDDRcQMwhyKAQwBA..i&w=600&h=500&bih=754&biw=1536&q=lois%20griffin&ved=0ahUKEwil1-fDgPDmAhUDrVkKHahDDRcQMwhyKAQwBA&iact=mrc&uact=8IMAGE-LINK_GOES_HERE\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Brian Griffin\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.comicbook.com%2Fwp-content%2Fuploads%2F2013%2F12%2Fbrian-griffin-family-guy.jpg&imgrefurl=https%3A%2F%2Fcomicbook.com%2Fblog%2F2013%2F11%2F26%2Ffamily-guy-five-ways-brian-griffin-could-return%2F&docid=3Dqo7IygSMuxvM&tbnid=WZvO_YU6QqtR9M%3A&vet=10ahUKEwjj5OPQgPDmAhUKy1kKHX9_C_cQMwiCASgGMAY..i&w=550&h=330&bih=754&biw=1536&q=brian%20griffin&ved=0ahUKEwjj5OPQgPDmAhUKy1kKHX9_C_cQMwiCASgGMAY&iact=mrc&uact=8E\",\"gif\":\"gifyyy\"},{\"name\":\"Stewie Griffin\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.cinemablend.com%2Ffilter%3Ascale%2Fquill%2Ff%2Fa%2F0%2F0%2Fc%2F7%2Ffa00c7740d6c4453f6fbf2f81172979b94ea96e8.jpg%3Fmw%3D600&imgrefurl=https%3A%2F%2Fwww.cinemablend.com%2Ftelevision%2F2313991%2Fhow-family-guy-will-directly-address-stewies-sexuality&docid=E-lpeAwI9WaC_M&tbnid=nX5_ltrkbqFXrM%3A&vet=10ahUKEwi5nKjkgPDmAhXl01kKHZxHD5YQMwiFASgHMAc..i&w=600&h=300&bih=754&biw=1536&q=stewie%20griffin&ved=0ahUKEwi5nKjkgPDmAhXl01kKHZxHD5YQMwiFASgHMAc&iact=mrc&uact=8\",\"gif\":\"GIPHYYYY\"},{\"name\":\"Meg Griffin\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.washingtonblade.com%2Fcontent%2Ffiles%2F2016%2F11%2FFamily_Guy_Meg_Screenshot_600_by_400.jpg&imgrefurl=https%3A%2F%2Fwww.washingtonblade.com%2F2016%2F11%2F30%2Fmeg-griffin-family-guy-may-come-lesbian%2F&docid=HfKoDx9lAsWpXM&tbnid=5uxPah9MSjP9-M%3A&vet=10ahUKEwi7_f72gPDmAhVKqlkKHboiDf4QMwi7ASgiMCI..i&w=600&h=400&bih=754&biw=1536&q=meg%20griffin&ved=0ahUKEwi7_f72gPDmAhVKqlkKHboiDf4QMwi7ASgiMCI&iact=mrc&uact=8\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Chris Griffin\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.costumewall.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fchris-griffin.jpg&imgrefurl=https%3A%2F%2Fcostumewall.com%2Fdress-like-chris-griffin%2F&docid=TOyBS3dMUbLqWM&tbnid=gNz48xGLeIgQLM%3A&vet=10ahUKEwi2oeTGg_DmAhUKnawKHQAeBYsQMwh_KAUwBQ..i&w=600&h=500&bih=754&biw=1536&q=chris%20griffin&ved=0ahUKEwi2oeTGg_DmAhUKnawKHQAeBYsQMwh_KAUwBQ&iact=mrc&uact=8E\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Joe Swanson\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgix.ranker.com%2Fuser_node_img%2F50096%2F1001918978%2Foriginal%2Fi-brought-construction-paper-photo-u1%3Fw%3D650%26q%3D50%26fm%3Dpjpg%26fit%3Dcrop%26crop%3Dfaces&imgrefurl=https%3A%2F%2Fwww.ranker.com%2Flist%2Fbest-joe-swanson-quotes%2Fmovie-and-tv-quotes&docid=nJMM7p4mHfMSqM&tbnid=VT74SIbbyIjiJM%3A&vet=10ahUKEwiVwr7Yg_DmAhXNrVkKHQRfBmwQMwh9KAIwAg..i&w=650&h=650&bih=754&biw=1536&q=joe%20swanson&ved=0ahUKEwiVwr7Yg_DmAhXNrVkKHQRfBmwQMwh9KAIwAg&iact=mrc&uact=8\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Cleveland\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Ffiverr-res.cloudinary.com%2Fimages%2Ft_main1%2Cq_auto%2Cf_auto%2Fgigs%2F1227303%2Foriginal%2Fcleveland-brown_480x360%2Fread-your-script-as-cleveland-brown-from-family-guy.jpg&imgrefurl=https%3A%2F%2Fwww.fiverr.com%2Fmikevann%2Fread-your-script-as-cleveland-brown-from-family-guy&docid=PX0zynCDlWTqUM&tbnid=nQPfKLguq8FQxM%3A&vet=10ahUKEwjYmo-MhPDmAhURXKwKHQsHBRMQMwiGASgRMBE..i&w=680&h=474&bih=754&biw=1536&q=cleveland%20family%20guy&ved=0ahUKEwjYmo-MhPDmAhURXKwKHQsHBRMQMwiGASgRMBE&iact=mrc&uact=8\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Quagmire\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fcarboncostume.com%2Fwordpress%2Fwp-content%2Fuploads%2F2013%2F06%2FGlenn-Quagmire.jpg&imgrefurl=https%3A%2F%2Fcarboncostume.com%2Fglenn-quagmire%2F&docid=ixPijI2l6l8PZM&tbnid=xAId7y9NRfOyUM%3A&vet=10ahUKEwipmN-ehPDmAhWDjVkKHVBYBNEQMwjNASgnMCc..i&w=650&h=400&bih=754&biw=1536&q=quagmire%20family%20guy&ved=0ahUKEwipmN-ehPDmAhWDjVkKHVBYBNEQMwjNASgnMCc&iact=mrc&uact=8\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Chicken\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fapi.pddataservices.com%2Fimages%3Furl%3Dhttps%3A%2F%2Fpostmediacanadadotcom.files.wordpress.com%2F2013%2F08%2Ffamily-guy-chicken.jpg%26w%3D302%26h%3D226&imgrefurl=https%3A%2F%2Fo.canada.com%2Fentertainment%2Ffamily-guy-chicken-fight&docid=9Hz8Y1MFg0DZWM&tbnid=3QVOqO5NJhNa8M%3A&vet=10ahUKEwiHmoW4hPDmAhVGw1kKHeo1AOMQMwh8KAowCg..i&w=302&h=226&bih=754&biw=1536&q=chicken%20family%20guy&ved=0ahUKEwiHmoW4hPDmAhVGw1kKHeo1AOMQMwh8KAowCg&iact=mrc&uact=8\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Tom Tucker\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.proprofs.com%2Fimages%2FQM%2Fuser_images%2F2170919%2F1514709629.jpg&imgrefurl=https%3A%2F%2Fwww.proprofs.com%2Fquiz-school%2Fstory.php%3Ftitle%3D3dq-can-you-answer-these-questions-on-tom-tucker&docid=4ApIIKHIR5ZPdM&tbnid=yEPrLaswQkXLGM%3A&vet=10ahUKEwiZmIfNhPDmAhWurFkKHUGCDsYQMwhrKA0wDQ..i&w=525&h=394&bih=754&biw=1536&q=tom%20tucker%20family%20guy&ved=0ahUKEwiZmIfNhPDmAhWurFkKHUGCDsYQMwhrKA0wDQ&iact=mrc&uact=8E\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"},{\"name\":\"Trisha\",\"image\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2F7-Eo5ve1y00%2Fhqdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7-Eo5ve1y00&docid=PsI-2J3k56t7VM&tbnid=Y5YZoJNb7pgG9M%3A&vet=10ahUKEwjd5LnhhPDmAhWEslkKHeBhA3YQMwg9KAIwAg..i&w=471&h=360&bih=754&biw=1536&q=trisha%20%20family%20guy&ved=0ahUKEwjd5LnhhPDmAhWEslkKHeBhA3YQMwg9KAIwAg&iact=mrc&uact=8\",\"gif\":\"GIHPY-*-FUNCTION-*-GOES-*-HERE\"}]");
+
+/***/ }),
 
 /***/ "./components/Layout/Layout.js":
 /*!*************************************!*\
@@ -2127,25 +2138,70 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout/index.js");
+/* harmony import */ var _Characters_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Characters.json */ "./Characters.json");
+var _Characters_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../Characters.json */ "./Characters.json", 1);
 var _jsxFileName = "C:\\Users\\ollep\\Documents\\clickmeguy\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const index = () => {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+
+const index = props => {
+  console.log(props);
+  console.log(_Characters_json__WEBPACK_IMPORTED_MODULE_2__);
+  const charTEST = _Characters_json__WEBPACK_IMPORTED_MODULE_2__.map(char => __jsx("div", {
+    key: char.name,
+    className: "card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: undefined
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 14
     },
     __self: undefined
-  }, "hello")));
+  }, " ", char.name, " ")));
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }, "Welcome to ClickMeGuy!"), __jsx("div", {
+    className: "container Holder",
+    style: {
+      textAlign: 'center',
+      backgroundColor: 'lightgrey',
+      borderRadius: 10.1618
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: undefined
+  }, "this is a TEST_H1_TAG"), __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, charTEST))));
 }; // index.getInitialProps = async function
 
 
@@ -2153,7 +2209,7 @@ const index = () => {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
