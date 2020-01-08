@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './GridComp';","map":{"version":3,"sources":["C:/Users/ollep/Documents/clickmeguy/components/GridComp/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,YAAxB","sourcesContent":["export { default } from './GridComp'"]},"metadata":{},"sourceType":"module"}

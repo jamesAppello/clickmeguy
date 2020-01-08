@@ -6,9 +6,17 @@ const Layout = (props) => (
     <div>
         <Head>
             <title>ClickMeGuy</title>
-            <link 
+            <link
                 rel="stylesheet"
                 href="https://bootswatch.com/4/cerulean/bootstrap.min.css" />
+
+            <link 
+                rel="stylesheet" 
+                href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+            <link 
+                rel="stylesheet" 
+                href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
         {/* <BODY> */}
         <NavBar />
