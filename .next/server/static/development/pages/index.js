@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -905,7 +905,8 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(this, "alertWinner", newState => {
       if (newState.pickedChars.length === 12) {
-        newState.alertMessage = alert("CONGRADULATIONS! YOU WON!"); //newState.pickedChars = [];
+        newState.alertMessage = alert("CONGRADULATIONS! YOU WON!");
+        window.location.reload(false); //newState.pickedChars = [];
 
         this.setState(this.state = newState);
       } else {}
@@ -1176,7 +1177,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

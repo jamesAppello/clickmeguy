@@ -52853,7 +52853,8 @@ function (_React$Component) {
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this), "alertWinner", function (newState) {
       if (newState.pickedChars.length === 12) {
-        newState.alertMessage = alert("CONGRADULATIONS! YOU WON!"); //newState.pickedChars = [];
+        newState.alertMessage = alert("CONGRADULATIONS! YOU WON!");
+        window.location.reload(false); //newState.pickedChars = [];
 
         _this.setState(_this.state = newState);
       } else {}
@@ -53135,7 +53136,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Collep%5CDocuments%5Cclickmeguy%5Cpages%5Cindex.js ***!
   \*********************************************************************************************************************************/
@@ -53158,5 +53159,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

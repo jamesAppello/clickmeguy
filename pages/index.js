@@ -93,10 +93,10 @@ class index extends React.Component {
     alertWinner = (newState) => {
       if (newState.pickedChars.length === 12) {
         newState.alertMessage = alert("CONGRADULATIONS! YOU WON!");
+        window.location.reload(false);
         //newState.pickedChars = [];
         this.setState(this.state = newState);
       } else {
-
       }
     }
   
