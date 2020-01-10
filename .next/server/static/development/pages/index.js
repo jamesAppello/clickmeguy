@@ -128,13 +128,13 @@ const Alert = props => {
       lineNumber: 5
     },
     __self: undefined
-  }, props.message ? __jsx("p", {
+  }, props.message ? __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: undefined
-  }, props.message) : __jsx("p", {
+  }, props.message) : __jsx("h3", {
     className: "default-msg black",
     __source: {
       fileName: _jsxFileName,
@@ -571,30 +571,77 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Score = props => {
   return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     className: "score",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
+    style: {
+      padding: '6.18%',
+      backgroundColor: '#37AEF5',
+      borderRadius: 20
     },
-    __self: undefined
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: undefined
-  }, props.type, ": ", props.score), __jsx("br", {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
+    badgeContent: props.score,
+    color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 9
     },
     __self: undefined
-  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+    style: {
+      borderRadius: 12,
+      padding: 10
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
     },
     __self: undefined
-  }, "ToWin : 12"));
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, "CurrentScore"))), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
+    badgeContent: 12,
+    color: "secondary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+    style: {
+      borderRadius: 12,
+      padding: 10
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, "POINTS TO WIN"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Score);

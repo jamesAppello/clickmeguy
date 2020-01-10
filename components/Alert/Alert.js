@@ -4,9 +4,9 @@ const Alert = (props) => {
     return(
         <div className="default" style={props.style}>
             {props.message ? (
-                <p>{props.message}</p>
+                <h3>{props.message}</h3>
             ) : (
-                <p className='default-msg black'>Click a pic to start!</p>
+                <h3 className='default-msg black'>Click a pic to start!</h3>
             )}
         </div>
     )
