@@ -1,4 +1,4 @@
-// import './Score.css'
+import './Score.css'
 import { Card } from '@material-ui/core'
 
 const Score = (props) => {

@@ -1,4 +1,4 @@
-// import './CharCard.css'
+import './CharCard.css'
 
 const CharCard = ({ id, name, image, handlePicked }) => {
   // console.log(handlePicked)

@@ -7,38 +7,12 @@ import GridComp from '../components/GridComp/'
 import PaperComp from '../components/PaperComp/'
 import Alert from '../components/Alert/'
 import Score from '../components/Score/'
-// import GifCard from '../components/GifCard/GifCard.js'
-
-import fetch from 'isomorphic-unfetch'
-fetch(`https://api.giphy.com/v1/gifs/search?api_key=6mGQ0OeZECHu2KHo52M4KZ5UnTRDOtaS&q=family guy&limit=50&offset=0&rating=R&lang=en`)
-    .then(res => res.json())
-    .then(giphy => {
-        
-        // console.log(giphy.data[0].images.original.url)
-        // console.log(giphy.data[1].images.original.url)
-        // console.log(giphy.data[2].images.original.url)
-        // console.log(giphy.data[3].images.original.url)
-        // console.log(giphy.data[4].images.original.url)
-        // console.log(giphy.data[5].images.original.url)
-        // console.log(giphy.data[6].images.original.url)
-        // console.log(giphy.data[7].images.original.url)
-        // console.log(giphy.data[8].images.original.url)
-        // console.log(giphy.data[9].images.original.url)
-        // console.log(giphy.data[10].images.original.url)
-        // console.log(giphy.data[11].images.original.url)
-    
-
-        console.log(giphy.data)
-        GifyARRAY.push(giphy.data)
-    })
-
-const GifyARRAY = []
 
 
 class index extends React.Component {
 
     state = {
-     charGifs: GifyARRAY, 
+    //  charGifs: GifyARRAY, 
      characters: Characters,
      pickedChars: [],
      topScore: 0,

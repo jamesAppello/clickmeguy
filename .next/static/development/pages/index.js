@@ -7,7 +7,7 @@
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"name\":\"Stewie\",\"image\":\"https://media3.giphy.com/media/BT0Sz6qPIcdq0/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":2,\"name\":\"Brian\",\"image\":\"https://media0.giphy.com/media/HG05lYgPrD1Re/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":3,\"name\":\"Peter\",\"image\":\"https://media2.giphy.com/media/MGNxNOWcyOnS0/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":4,\"name\":\"Lois\",\"image\":\"https://media1.giphy.com/media/3o6ZtpRoYe9wbyfcBi/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":5,\"name\":\"Meg\",\"image\":\"https://media0.giphy.com/media/1HjjcAEBmgWIM/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":6,\"name\":\"Chris\",\"image\":\"https://media2.giphy.com/media/QH3zfREoX0luU/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":7,\"name\":\"Quagmire\",\"image\":\"https://media1.giphy.com/media/EeHiOvvt5xFuM/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":8,\"name\":\"Joe\",\"image\":\"https://media3.giphy.com/media/WWd8wUHuwQg1y/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":9,\"name\":\"Cleveland\",\"image\":\"https://media2.giphy.com/media/l396BXlj6Xgzav3xK/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":10,\"name\":\"Joyce\",\"image\":\"https://media0.giphy.com/media/l0HlL6eH6eEew5FpS/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":11,\"name\":\"Bonnie\",\"image\":\"https://media0.giphy.com/media/fC1HPbYpydrqM/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":12,\"name\":\"Tom Tucker\",\"image\":\"https://media3.giphy.com/media/kr0OMSLiyKUF2/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"}]");
+module.exports = JSON.parse("[{\"id\":1,\"name\":\"Stewie\",\"image\":\"https://media3.giphy.com/media/BT0Sz6qPIcdq0/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":2,\"name\":\"Brian\",\"image\":\"https://media0.giphy.com/media/HG05lYgPrD1Re/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":3,\"name\":\"Peter\",\"image\":\"https://media3.giphy.com/media/FeFVaCaun5Yt2/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":4,\"name\":\"Lois\",\"image\":\"https://media1.giphy.com/media/3o6ZtpRoYe9wbyfcBi/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":5,\"name\":\"Meg\",\"image\":\"https://media0.giphy.com/media/l2SpTPSxDsMJVXxi8/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":6,\"name\":\"Chris\",\"image\":\"https://media2.giphy.com/media/QH3zfREoX0luU/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":7,\"name\":\"Quagmire\",\"image\":\"https://media0.giphy.com/media/NqGFCRe8A6XFm/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":8,\"name\":\"Joe\",\"image\":\"https://media2.giphy.com/media/l0IsGRJ5DZCEnCmyI/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":9,\"name\":\"Cleveland\",\"image\":\"https://media2.giphy.com/media/YKq54CCqHpeeY/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":10,\"name\":\"Joyce\",\"image\":\"https://media0.giphy.com/media/l0HlL6eH6eEew5FpS/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":11,\"name\":\"Bonnie\",\"image\":\"https://media0.giphy.com/media/l0HlPwMAzh13pcZ20/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":12,\"name\":\"Tom Tucker\",\"image\":\"https://media3.giphy.com/media/kr0OMSLiyKUF2/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"}]");
 
 /***/ }),
 
@@ -82,11 +82,13 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CharCard_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CharCard.css */ "./components/CharCard/CharCard.css");
+/* harmony import */ var _CharCard_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CharCard_css__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "C:\\Users\\ollep\\Documents\\clickmeguy\\components\\CharCard\\CharCard.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-// import './CharCard.css'
+
 var CharCard = function CharCard(_ref) {
   var id = _ref.id,
       name = _ref.name,
@@ -435,22 +437,24 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var _Score_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Score.css */ "./components/Score/Score.css");
+/* harmony import */ var _Score_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Score_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 var _jsxFileName = "C:\\Users\\ollep\\Documents\\clickmeguy\\components\\Score\\Score.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-// import './Score.css'
+
 
 
 var Score = function Score(props) {
-  return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+  return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     className: "score",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -462,7 +466,7 @@ var Score = function Score(props) {
       lineNumber: 12
     },
     __self: this
-  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -46642,18 +46646,6 @@ var index = create();
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/polyfills/fetch/index.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/next/dist/build/polyfills/fetch/index.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* globals self */var fetch=self.fetch.bind(self);module.exports=fetch;module.exports.default=module.exports;
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
   !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_ef0ff7c60362f24a921f ***!
@@ -52721,8 +52713,6 @@ var _Characters_json__WEBPACK_IMPORTED_MODULE_15___namespace = /*#__PURE__*/__we
 /* harmony import */ var _components_PaperComp___WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/PaperComp/ */ "./components/PaperComp/index.js");
 /* harmony import */ var _components_Alert___WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/Alert/ */ "./components/Alert/index.js");
 /* harmony import */ var _components_Score___WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../components/Score/ */ "./components/Score/index.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_22__);
 
 
 
@@ -52752,28 +52742,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 
- // import GifCard from '../components/GifCard/GifCard.js'
 
-
-isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_22___default()("https://api.giphy.com/v1/gifs/search?api_key=6mGQ0OeZECHu2KHo52M4KZ5UnTRDOtaS&q=family guy&limit=50&offset=0&rating=R&lang=en").then(function (res) {
-  return res.json();
-}).then(function (giphy) {
-  // console.log(giphy.data[0].images.original.url)
-  // console.log(giphy.data[1].images.original.url)
-  // console.log(giphy.data[2].images.original.url)
-  // console.log(giphy.data[3].images.original.url)
-  // console.log(giphy.data[4].images.original.url)
-  // console.log(giphy.data[5].images.original.url)
-  // console.log(giphy.data[6].images.original.url)
-  // console.log(giphy.data[7].images.original.url)
-  // console.log(giphy.data[8].images.original.url)
-  // console.log(giphy.data[9].images.original.url)
-  // console.log(giphy.data[10].images.original.url)
-  // console.log(giphy.data[11].images.original.url)
-  console.log(giphy.data);
-  GifyARRAY.push(giphy.data);
-});
-var GifyARRAY = [];
 
 var index =
 /*#__PURE__*/
@@ -52794,7 +52763,7 @@ function (_React$Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_9__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_10__["default"])(index)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this), "state", {
-      charGifs: GifyARRAY,
+      //  charGifs: GifyARRAY, 
       characters: _Characters_json__WEBPACK_IMPORTED_MODULE_15__,
       pickedChars: [],
       topScore: 0,
@@ -52898,13 +52867,13 @@ function (_React$Component) {
       return __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134
+          lineNumber: 108
         },
         __self: this
       }, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_16__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 109
         },
         __self: this
       }), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_18__["default"], {
@@ -52917,7 +52886,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 111
         },
         __self: this
       }, __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_18__["default"], {
@@ -52925,13 +52894,13 @@ function (_React$Component) {
         lg: 12,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 113
         },
         __self: this
       }, __jsx(_components_PaperComp___WEBPACK_IMPORTED_MODULE_19__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140
+          lineNumber: 114
         },
         __self: this
       }, this.state.alertMessage === "GOOD CHOICE!" ? __jsx(_components_Alert___WEBPACK_IMPORTED_MODULE_20__["default"], {
@@ -52942,7 +52911,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142
+          lineNumber: 116
         },
         __self: this
       }) : __jsx(_components_Alert___WEBPACK_IMPORTED_MODULE_20__["default"], {
@@ -52953,7 +52922,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 118
         },
         __self: this
       }))), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_18__["default"], {
@@ -52961,7 +52930,7 @@ function (_React$Component) {
         justify: "space-between",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149
+          lineNumber: 123
         },
         __self: this
       }, __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_18__["default"], {
@@ -52976,13 +52945,13 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 125
         },
         __self: this
       }, __jsx(_components_PaperComp___WEBPACK_IMPORTED_MODULE_19__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 126
         },
         __self: this
       }, __jsx(_components_Score___WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -52990,7 +52959,7 @@ function (_React$Component) {
         score: this.state.pickedChars.length,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153
+          lineNumber: 127
         },
         __self: this
       }))))), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_18__["default"], {
@@ -53003,7 +52972,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163
+          lineNumber: 137
         },
         __self: this
       }, this.state.characters.map(function (_char) {
@@ -53015,7 +52984,7 @@ function (_React$Component) {
           xs: 6,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 165
+            lineNumber: 139
           },
           __self: this
         }, __jsx(_components_CharCard__WEBPACK_IMPORTED_MODULE_17__["default"], {
@@ -53026,7 +52995,7 @@ function (_React$Component) {
           handlePicked: _this2.handlePicked,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 166
+            lineNumber: 140
           },
           __self: this
         }));
@@ -53157,7 +53126,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Collep%5CDocuments%5Cclickmeguy%5Cpages%5Cindex.js ***!
   \*********************************************************************************************************************************/
@@ -53180,5 +53149,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

@@ -1,0 +1,35 @@
+._1n-RFF_0mRUt0qQLxzdp80 {
+    cursor: pointer;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+}
+
+._1n-RFF_0mRUt0qQLxzdp80:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0, 10px, 10px rgba(0,0,0,0.22);
+}
+._3xTb0w4Rt5zP4pL__KV_hp {
+    padding: 20;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+    ._3xTb0w4Rt5zP4pL__KV_hp {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 6200px) {
+    ._3xTb0w4Rt5zP4pL__KV_hp {
+        font-size: 1.2rem;
+    }
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/

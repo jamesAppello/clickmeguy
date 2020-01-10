@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -100,7 +100,7 @@ module.exports =
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"name\":\"Stewie\",\"image\":\"https://media3.giphy.com/media/BT0Sz6qPIcdq0/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":2,\"name\":\"Brian\",\"image\":\"https://media0.giphy.com/media/HG05lYgPrD1Re/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":3,\"name\":\"Peter\",\"image\":\"https://media2.giphy.com/media/MGNxNOWcyOnS0/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":4,\"name\":\"Lois\",\"image\":\"https://media1.giphy.com/media/3o6ZtpRoYe9wbyfcBi/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":5,\"name\":\"Meg\",\"image\":\"https://media0.giphy.com/media/1HjjcAEBmgWIM/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":6,\"name\":\"Chris\",\"image\":\"https://media2.giphy.com/media/QH3zfREoX0luU/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":7,\"name\":\"Quagmire\",\"image\":\"https://media1.giphy.com/media/EeHiOvvt5xFuM/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":8,\"name\":\"Joe\",\"image\":\"https://media3.giphy.com/media/WWd8wUHuwQg1y/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":9,\"name\":\"Cleveland\",\"image\":\"https://media2.giphy.com/media/l396BXlj6Xgzav3xK/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":10,\"name\":\"Joyce\",\"image\":\"https://media0.giphy.com/media/l0HlL6eH6eEew5FpS/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":11,\"name\":\"Bonnie\",\"image\":\"https://media0.giphy.com/media/fC1HPbYpydrqM/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":12,\"name\":\"Tom Tucker\",\"image\":\"https://media3.giphy.com/media/kr0OMSLiyKUF2/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"}]");
+module.exports = JSON.parse("[{\"id\":1,\"name\":\"Stewie\",\"image\":\"https://media3.giphy.com/media/BT0Sz6qPIcdq0/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":2,\"name\":\"Brian\",\"image\":\"https://media0.giphy.com/media/HG05lYgPrD1Re/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":3,\"name\":\"Peter\",\"image\":\"https://media3.giphy.com/media/FeFVaCaun5Yt2/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":4,\"name\":\"Lois\",\"image\":\"https://media1.giphy.com/media/3o6ZtpRoYe9wbyfcBi/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":5,\"name\":\"Meg\",\"image\":\"https://media0.giphy.com/media/l2SpTPSxDsMJVXxi8/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":6,\"name\":\"Chris\",\"image\":\"https://media2.giphy.com/media/QH3zfREoX0luU/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":7,\"name\":\"Quagmire\",\"image\":\"https://media0.giphy.com/media/NqGFCRe8A6XFm/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":8,\"name\":\"Joe\",\"image\":\"https://media2.giphy.com/media/l0IsGRJ5DZCEnCmyI/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":9,\"name\":\"Cleveland\",\"image\":\"https://media2.giphy.com/media/YKq54CCqHpeeY/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":10,\"name\":\"Joyce\",\"image\":\"https://media0.giphy.com/media/l0HlL6eH6eEew5FpS/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"},{\"id\":11,\"name\":\"Bonnie\",\"image\":\"https://media0.giphy.com/media/l0HlPwMAzh13pcZ20/giphy.gif?cid=01592e1e6301b6a40ee7320d4c6b7fe3b49b421a1ab4b58a&rid=giphy.gif\"},{\"id\":12,\"name\":\"Tom Tucker\",\"image\":\"https://media3.giphy.com/media/kr0OMSLiyKUF2/giphy.gif?cid=01592e1e6220cadd380e7525049b512868a8ee99c4b7734d&rid=giphy.gif\"}]");
 
 /***/ }),
 
@@ -164,6 +164,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./components/CharCard/CharCard.css":
+/*!******************************************!*\
+  !*** ./components/CharCard/CharCard.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"card": "_1n-RFF_0mRUt0qQLxzdp80"
+};
+
+/***/ }),
+
 /***/ "./components/CharCard/CharCard.js":
 /*!*****************************************!*\
   !*** ./components/CharCard/CharCard.js ***!
@@ -175,11 +188,13 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CharCard_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CharCard.css */ "./components/CharCard/CharCard.css");
+/* harmony import */ var _CharCard_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CharCard_css__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "C:\\Users\\ollep\\Documents\\clickmeguy\\components\\CharCard\\CharCard.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-// import './CharCard.css'
+
 const CharCard = ({
   id,
   name,
@@ -519,6 +534,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./components/Score/Score.css":
+/*!************************************!*\
+  !*** ./components/Score/Score.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"score": "_3xTb0w4Rt5zP4pL__KV_hp"
+};
+
+/***/ }),
+
 /***/ "./components/Score/Score.js":
 /*!***********************************!*\
   !*** ./components/Score/Score.js ***!
@@ -530,23 +558,25 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core */ "@material-ui/core");
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Score_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Score.css */ "./components/Score/Score.css");
+/* harmony import */ var _Score_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Score_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "@material-ui/core");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\ollep\\Documents\\clickmeguy\\components\\Score\\Score.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-// import './Score.css'
+
 
 
 const Score = props => {
-  return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+  return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     className: "score",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: undefined
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -558,7 +588,7 @@ const Score = props => {
       lineNumber: 12
     },
     __self: undefined
-  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -760,8 +790,6 @@ var _Characters_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__web
 /* harmony import */ var _components_PaperComp___WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/PaperComp/ */ "./components/PaperComp/index.js");
 /* harmony import */ var _components_Alert___WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Alert/ */ "./components/Alert/index.js");
 /* harmony import */ var _components_Score___WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Score/ */ "./components/Score/index.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_16__);
 
 
 
@@ -785,33 +813,14 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 
- // import GifCard from '../components/GifCard/GifCard.js'
 
-
-isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_16___default()(`https://api.giphy.com/v1/gifs/search?api_key=6mGQ0OeZECHu2KHo52M4KZ5UnTRDOtaS&q=family guy&limit=50&offset=0&rating=R&lang=en`).then(res => res.json()).then(giphy => {
-  // console.log(giphy.data[0].images.original.url)
-  // console.log(giphy.data[1].images.original.url)
-  // console.log(giphy.data[2].images.original.url)
-  // console.log(giphy.data[3].images.original.url)
-  // console.log(giphy.data[4].images.original.url)
-  // console.log(giphy.data[5].images.original.url)
-  // console.log(giphy.data[6].images.original.url)
-  // console.log(giphy.data[7].images.original.url)
-  // console.log(giphy.data[8].images.original.url)
-  // console.log(giphy.data[9].images.original.url)
-  // console.log(giphy.data[10].images.original.url)
-  // console.log(giphy.data[11].images.original.url)
-  console.log(giphy.data);
-  GifyARRAY.push(giphy.data);
-});
-const GifyARRAY = [];
 
 class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
   constructor(...args) {
     super(...args);
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(this, "state", {
-      charGifs: GifyARRAY,
+      //  charGifs: GifyARRAY, 
       characters: _Characters_json__WEBPACK_IMPORTED_MODULE_9__,
       pickedChars: [],
       topScore: 0,
@@ -903,13 +912,13 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
     return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 134
+        lineNumber: 108
       },
       __self: this
     }, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_10__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, this.props, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 135
+        lineNumber: 109
       },
       __self: this
     }), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -922,7 +931,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 137
+        lineNumber: 111
       },
       __self: this
     }, __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -930,13 +939,13 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       lg: 12,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 139
+        lineNumber: 113
       },
       __self: this
     }, __jsx(_components_PaperComp___WEBPACK_IMPORTED_MODULE_13__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 140
+        lineNumber: 114
       },
       __self: this
     }, this.state.alertMessage === "GOOD CHOICE!" ? __jsx(_components_Alert___WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -947,7 +956,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 142
+        lineNumber: 116
       },
       __self: this
     }) : __jsx(_components_Alert___WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -958,7 +967,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 144
+        lineNumber: 118
       },
       __self: this
     }))), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -966,7 +975,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       justify: "space-between",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 149
+        lineNumber: 123
       },
       __self: this
     }, __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -981,13 +990,13 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 151
+        lineNumber: 125
       },
       __self: this
     }, __jsx(_components_PaperComp___WEBPACK_IMPORTED_MODULE_13__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 152
+        lineNumber: 126
       },
       __self: this
     }, __jsx(_components_Score___WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -995,7 +1004,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       score: this.state.pickedChars.length,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 153
+        lineNumber: 127
       },
       __self: this
     }))))), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -1008,7 +1017,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 163
+        lineNumber: 137
       },
       __self: this
     }, this.state.characters.map(char => __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -1019,7 +1028,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       xs: 6,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 165
+        lineNumber: 139
       },
       __self: this
     }, __jsx(_components_CharCard__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -1030,7 +1039,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       handlePicked: this.handlePicked,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 166
+        lineNumber: 140
       },
       __self: this
     }))))));
@@ -1158,7 +1167,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -1255,17 +1264,6 @@ module.exports = require("core-js/library/fn/object/get-own-property-symbols");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/keys");
-
-/***/ }),
-
-/***/ "isomorphic-unfetch":
-/*!*************************************!*\
-  !*** external "isomorphic-unfetch" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-unfetch");
 
 /***/ }),
 
