@@ -1,12 +1,20 @@
 // import Link from 'next/link';
-import { AppBar, Toolbar, Typography } from '@material-ui/core'
+import { 
+    AppBar, 
+    Toolbar, 
+    Typography } from '@material-ui/core'
+    
 
 const NavBar = (props) => {
     return(
         <>
             <AppBar position='static' {...props}>
                 <Toolbar style={{backgroundColor:'blue'}}>
-                    <Typography variant='h1' color='inherit' align='center' style={{color:'yellow', fontWeight:'bolder'}}>
+                    <Typography 
+                        variant='h2' 
+                        color='inherit' 
+                        align='center' 
+                        style={{color:'yellow', fontWeight:'bolder'}}>
                        Welcome to ClickMe'Guy!
                     </Typography>
                 </Toolbar>
