@@ -205,7 +205,7 @@ var _jsxFileName = "C:\\Users\\ollep\\Documents\\clickmeguy\\components\\Layout\
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
- // import fetch from 'isomorphic-unfetch'
+
 
 var Layout = function Layout(props) {
   return __jsx("div", {
@@ -256,18 +256,7 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, props.children));
-}; // fetch(`https://api.giphy.com/v1/gifs/search?api_key=6mGQ0OeZECHu2KHo52M4KZ5UnTRDOtaS&q=family guy&limit=12&offset=0&rating=R&lang=en`)
-//     .then(res => res.json())
-//     .then(giphy => {
-//         // console.log(giphy.data)
-//         gifs.push(giphy.data)
-//     })
-//     const gifs = []
-// Layout.props =  {
-//     testProp: {gifs}
-// }
-// console.log(Layout.props)
-
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
