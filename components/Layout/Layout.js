@@ -7,6 +7,8 @@ import Head from 'next/head';
 const Layout = (props) => (
     <div>
         <Head>
+            <meta charSet='UTF-8'/>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <title>ClickMeGuy</title>
             <link 
                 rel="stylesheet" 

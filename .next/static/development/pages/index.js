@@ -220,10 +220,25 @@ var Layout = function Layout(props) {
       lineNumber: 9
     },
     __self: this
-  }, __jsx("title", {
+  }, __jsx("meta", {
+    charSet: "UTF-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
     },
     __self: this
   }, "ClickMeGuy"), __jsx("link", {
@@ -231,7 +246,7 @@ var Layout = function Layout(props) {
     href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }), __jsx("link", {
@@ -239,20 +254,20 @@ var Layout = function Layout(props) {
     href: "https://fonts.googleapis.com/icon?family=Material+Icons",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   })), __jsx(_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
   }), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: this
   }, props.children));
@@ -448,67 +463,25 @@ var Score = function Score(props) {
       lineNumber: 8
     },
     __self: this
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
-    badgeContent: props.score,
-    color: "primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+  }, __jsx("h2", {
     style: {
-      borderRadius: 12,
-      padding: 10
+      color: 'yellow'
     },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("h4", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "CurrentScore"))), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
-    badgeContent: 12,
-    color: "secondary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+  }, "Current Score: ", props.score), __jsx("h2", {
     style: {
-      borderRadius: 12,
-      padding: 10
+      color: 'white'
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, __jsx("h4", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "POINTS TO WIN"))));
+  }, "Score to WIN: 12"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Score);
@@ -52858,7 +52831,7 @@ function (_React$Component) {
       var newState = _objectSpread({}, _this.state);
 
       if (newState.pickedChars.includes(name)) {
-        newState.alertMessage = "YOU ALREADY PICKED \"".concat(name.toUpperCase(), "\" TRY AGAIN!!!");
+        newState.alertMessage = "YOU ALREADY PICKED THAT GIF!!! TRY AGAIN!!!";
         newState.pickedChars = [];
 
         _this.setState(_this.state = newState); // console.log(newState);

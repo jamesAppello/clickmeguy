@@ -69,7 +69,7 @@ class index extends React.Component {
       const newState = { ...this.state };
   
       if (newState.pickedChars.includes(name)) {
-        newState.alertMessage = `YOU ALREADY PICKED "${name.toUpperCase()}" TRY AGAIN!!!`;
+        newState.alertMessage = `YOU ALREADY PICKED THAT GIF!!! TRY AGAIN!!!`;
         newState.pickedChars = [];
         this.setState(this.state = newState)
         // console.log(newState);
