@@ -1,7 +1,7 @@
 # clickmeguy
 Family Guy themed, 'clicky game'
 
-## 'ABOUTTHISAPP' (ATA):
+## 'ABOUTTHISAPP':
 created with Next.js SSR framework
 
 #### getting started
