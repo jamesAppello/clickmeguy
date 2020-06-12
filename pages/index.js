@@ -17,9 +17,7 @@ class index extends React.Component {
      topScore: 0,
      alertMessage: "" 
     }
-    componentDidMount() {
-      
-    }
+    
   
     handlePicked = (e) => {
       // storing name attribute and its value to its charCard in a const variable
@@ -120,16 +118,15 @@ class index extends React.Component {
             </GridComp>
   
             <GridComp container justify="space-between">
-  
-              <GridComp item lg={6} md={6} sm={12} xs={12} style={{ paddingLeft: "100px", marginLeft: "161.8px" }}>
+              <GridComp 
+                item lg={6} md={6} 
+                sm={12} xs={12} 
+                style={{ paddingLeft: "100px", marginLeft: "161.8px" }}
+                >
                 <PaperComp>
                   <Score type="Current Score" score={this.state.pickedChars.length} />
                 </PaperComp>
               </GridComp>
-  
-              
-              
-  
             </GridComp>
           </GridComp>
   
