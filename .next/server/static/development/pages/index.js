@@ -829,7 +829,6 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
     super(...args);
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(this, "state", {
-      //  charGifs: GifyARRAY, 
       characters: _Characters_json__WEBPACK_IMPORTED_MODULE_9__,
       pickedChars: [],
       topScore: 0,
@@ -922,13 +921,13 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
     return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 108
+        lineNumber: 107
       },
       __self: this
     }, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_10__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, this.props, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 109
+        lineNumber: 108
       },
       __self: this
     }), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -941,7 +940,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 111
+        lineNumber: 110
       },
       __self: this
     }, __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -949,13 +948,13 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       lg: 12,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 113
+        lineNumber: 112
       },
       __self: this
     }, __jsx(_components_PaperComp___WEBPACK_IMPORTED_MODULE_13__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 114
+        lineNumber: 113
       },
       __self: this
     }, this.state.alertMessage === "GOOD CHOICE!" ? __jsx(_components_Alert___WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -966,7 +965,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 116
+        lineNumber: 115
       },
       __self: this
     }) : __jsx(_components_Alert___WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -977,7 +976,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 118
+        lineNumber: 117
       },
       __self: this
     }))), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -985,7 +984,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       justify: "space-between",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 123
+        lineNumber: 122
       },
       __self: this
     }, __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -1000,13 +999,13 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 125
+        lineNumber: 124
       },
       __self: this
     }, __jsx(_components_PaperComp___WEBPACK_IMPORTED_MODULE_13__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 126
+        lineNumber: 125
       },
       __self: this
     }, __jsx(_components_Score___WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -1014,7 +1013,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       score: this.state.pickedChars.length,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 127
+        lineNumber: 126
       },
       __self: this
     }))))), __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -1027,7 +1026,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 137
+        lineNumber: 136
       },
       __self: this
     }, this.state.characters.map(char => __jsx(_components_GridComp___WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -1038,7 +1037,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       xs: 6,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 139
+        lineNumber: 138
       },
       __self: this
     }, __jsx(_components_CharCard__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -1049,7 +1048,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
       handlePicked: this.handlePicked,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 140
+        lineNumber: 139
       },
       __self: this
     }))))));
@@ -1057,123 +1056,7 @@ class index extends react__WEBPACK_IMPORTED_MODULE_8___default.a.Component {
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (index); // const index = (props) => {
-//     // console.log(props)
-//     // CHARCTERS ARRAY
-//     const [character, setCharacters] = useState(Characters)
-//     // console.log(character)
-//     // SCORE
-//     const [score, setScore] = useState(0);
-//     // console.log(score)
-//     // ALERT MESSAGE
-//     const [alert, setAlert] = useState('');
-//     // console.log(alert)
-//     // METHODS
-//     const handlePicked = e => {
-//         const name = e.target.attributes.getNamedItem('name').value;
-//         console.log(name)
-//         shuffleCharacters()
-//         //checkGuess takes a name variable that will be used as a JSX prop to the CharCard component
-//         // second arg acts as a ...
-//         checkGuess(name, updateTopScore)
-//         updateTopScore()
-//     }
-//     const updateTopScore = () => {
-//       console.log(score)
-//       setScore(score+1)
-//       console.log(score)
-//     }
-//     // * calledback from handlePicked
-//     const checkGuess = (name, cb) => {
-//         const newState = [...character]
-//         console.log(newState)
-//         // setAlert(`you picked ${name}`)
-//         if (newState.includes(name)) {
-//             setAlert(`You already selected ${name.toUpperCase()}!!`)
-//             newState = []
-//             setCharacters(newState)
-//         } else {
-//             newState.push(name)
-//             setAlert("good choice!")
-//         }
-//         // console.log(name)
-//         // console.log(cb)
-//         alertWinner()
-//     }
-//     console.log(alert)
-//     const alertWinner = () => {
-//         if (score === 12) {
-//             setAlert('holy shit you won!!')
-//         }
-//     }
-//     // * calledback from handlePicked
-//     const shuffleCharacters = () => {
-//         setCharacters(shuffleArray(character))
-//         console.log('STATE')
-//         console.log(character)
-//         // ** characters shuffle but pics dont shuffle as the data does...
-//         console.log('JSON')
-//         console.log(Characters)
-//     }
-//     // * callback from shuffleCharacters
-//     const shuffleArray = arr => {
-//         let j, x, i;
-//         for (i = arr.length - 1; i > 0; i--) {
-//             j = Math.floor(Math.random() * (i + 1));
-//             x = arr[i];
-//             arr[i] = arr[j];
-//             arr[j] = x;
-//         }
-//         return arr
-//     }
-//     return (
-//         <>
-//             <Layout>
-//                 <GridComp 
-//                     container 
-//                     direction='column' 
-//                     style={{ mrgin: "0 auto", maxWidth: 945 }}>
-//                         <GridComp item lg={12}>
-//                             <PaperComp>
-//                                 {alert === "Good Choice!" ? (
-//                                     <Alert message={alert} style={{ color: 'green' }} />
-//                                 ) : (
-//                                         <Alert message={alert} style={{ color: 'blue' }} />
-//                                     )}
-//                             </PaperComp>
-//                         </GridComp>
-//                     <GridComp 
-//                         container 
-//                         justify="space-between">
-//                         <GridComp 
-//                             item 
-//                                 lg={6} 
-//                                 md={6} 
-//                                 sm={12} 
-//                                 xs={12} 
-//                             style={{ padingLeft: '100px', marginLeft: "101.8px" }}>
-//                             <PaperComp>
-//                                 <Score type="Score To Win" Score={character.length} currentScore={score} />
-//                             </PaperComp>
-//                         </GridComp>
-//                     </GridComp>
-//                 </GridComp>
-//                 <GridComp container spacing={8} justify='center' style={{ maxWidth: 945, margin: '0 auto' }}>
-//                     {character.map(char => (
-//                         <CharCard
-//                             id={char.id}
-//                             key={char.id}
-//                             name={char.name}
-//                             image={char.image}
-//                             handlePicked={handlePicked}
-//                         />
-//                     ))}
-//                 </GridComp>
-//             </Layout>
-//         </>
-//     );
-// };
-// export default index
+/* harmony default export */ __webpack_exports__["default"] = (index);
 
 /***/ }),
 

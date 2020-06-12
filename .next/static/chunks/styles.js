@@ -30,7 +30,7 @@ module.exports = {"card":"_1n-RFF_0mRUt0qQLxzdp80"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1578683145685");
+            injectCss(link, link.href.split("?")[0] + "?unix=1591991973302");
           });
       }
     }
@@ -68,7 +68,7 @@ module.exports = {"score":"_3xTb0w4Rt5zP4pL__KV_hp"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1578683145688");
+            injectCss(link, link.href.split("?")[0] + "?unix=1591991973300");
           });
       }
     }

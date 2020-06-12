@@ -2,8 +2,6 @@ import NavBar from '../NavBar';
 import Head from 'next/head';
 
 
-
-
 const Layout = (props) => (
     <div>
         <Head>
