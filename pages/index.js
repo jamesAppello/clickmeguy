@@ -8,6 +8,7 @@ import PaperComp from '../components/PaperComp/'
 import Alert from '../components/Alert/'
 import Score from '../components/Score/'
 
+import "../static/styles/index.css"
 
 class index extends React.Component {
 
@@ -68,21 +69,13 @@ class index extends React.Component {
       if (newState.pickedChars.includes(name)) {
         newState.alertMessage = `YOU ALREADY PICKED THAT GIF!!! TRY AGAIN!!!`;
         newState.pickedChars = [];
-        this.setState(this.state = newState)
-        // console.log(newState);
+        this.setState(this.state = newState);
       } else {
         newState.pickedChars.push(name);
         newState.alertMessage = `GOOD CHOICE!!!`;
-        // * \/\/~ THIS CHANGES THE TOP SCORE ~\/\/ *
-        // ***** put and if-statement for each run thru if the choice is wrong then the state is held to the top score!
-       // newState.topScore++;
-       // *INSERT* cb to a function to control the topscore
         this.setState(this.state =newState);
-        // console.log(newState);
       } 
-         
-      //cb(newState, this.alertWinner);
-      this.alertWinner(newState)
+      this.alertWinner(newState);
     }
   
     
@@ -91,22 +84,19 @@ class index extends React.Component {
       if (newState.pickedChars.length === 12) {
         newState.alertMessage = alert("CONGRADULATIONS! YOU WON!");
         window.location.reload(false);
-        //newState.pickedChars = [];
         this.setState(this.state = newState);
       } else {
       }
     }
   
     render() {
-      // console.log(this.state.charGifs[0])
-      const GIFDATA = this.state.charGifs
-      // console.log(GIFDATA)
       return(
         <div>
-            <Layout {...this.props}>
-          {/* <NavBar style={{ background: "#313133", marginBottom: "5px" }} /> */}
-          <GridComp container direction="column" style={{ margin: "0 auto", maxWidth: 945, textAlign:'center' }}>
-          
+          <Layout {...this.props}>
+          <GridComp 
+            container 
+            direction="column" 
+            style={{ margin: "0 auto", maxWidth: 945, textAlign:'center' }}>
           <GridComp item lg={12}>
               <PaperComp>
                 {this.state.alertMessage === "GOOD CHOICE!" ? (

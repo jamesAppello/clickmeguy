@@ -2,7 +2,7 @@ import { Paper } from '@material-ui/core';
 
 const PaperComp = (props) => {
     return(
-        <Paper>
+        <Paper style={{display:'block', textAlign:'center'}}>
             {props.children}
         </Paper>
     )

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './PaperComp';","map":{"version":3,"sources":["C:/Users/ollep/Documents/clickmeguy/components/PaperComp/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,aAAxB","sourcesContent":["export { default } from './PaperComp'"]},"metadata":{},"sourceType":"module"}
